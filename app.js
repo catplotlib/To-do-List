@@ -8,7 +8,7 @@ app.use(express.static("public"));
 
 app.set("view engine","ejs");
 
-var newItems=["Buy Food","Eat Food","Cook Food"];
+var newItems=[];
 var workItems=[];
 
 app.get("/",function(req,res){
